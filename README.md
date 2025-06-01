@@ -35,14 +35,14 @@
 ### 2. 克隆或下载代码
 
 ```bash
-git clone https://github.com/yourname/folder-size-viewer.git
-cd folder-size-viewer
+git clone git@github.com:tomhunts/windowscheckfile.git
+cd windowscheckfile
 ```
 
 ### 3. 运行程序
 
 ```bash
-python disk_browser_gui.py
+python main.py
 ```
 
 ---
@@ -66,10 +66,10 @@ python disk_browser_gui.py
 
 ```bash
 pip install pyinstaller
-pyinstaller --noconsole --onefile disk_browser_gui.py
+pyinstaller --noconsole --onefile main.py
 ```
 
-打包后会在 `dist/` 目录生成 `disk_browser_gui.exe`。
+打包后会在 `dist/` 目录生成 `main.exe`。
 
 
 ---
@@ -77,11 +77,11 @@ pyinstaller --noconsole --onefile disk_browser_gui.py
 ## 📂 目录结构
 
 ```
-folder-size-viewer/
+windowscheckfile/
 │
-├── disk_browser_gui.py        # 主程序文件
+├── main.py        # 主程序文件
 ├── README.md                  # 本说明文件
-└── icon.png                   # 可选图标（用于打包）
+
 ```
 
 ---
@@ -94,5 +94,5 @@ folder-size-viewer/
 
 ## 🙋‍♀️ 开发者
 
-作者：[你的名字或 GitHub 链接]  
+作者：tomhuts  
 如需增强功能（导出 CSV、右键菜单、图形图表等），欢迎提 Issue 或 PR！
